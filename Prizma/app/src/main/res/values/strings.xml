@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prizma Picture Filter</string>
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-5245308302708916/3646505982</string>
+    <string name="interstitial_full_screen">ca-app-pub-5245308302708916/9553438784</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

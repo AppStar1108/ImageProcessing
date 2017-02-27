@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:text="Leave a feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:id="@+id/textLabel"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/black" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/ratingBar" />
+
+        <Button
+            android:text="OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_alignLeft="@+id/ratingBar"
+            android:layout_alignStart="@+id/ratingBar"
+            android:layout_marginTop="48dp"
+            android:id="@+id/btnOK" />
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnOK"
+            android:layout_alignRight="@+id/ratingBar"
+            android:layout_alignEnd="@+id/ratingBar"
+            android:id="@+id/btnCancel" />
+    </RelativeLayout>
+</LinearLayout>
