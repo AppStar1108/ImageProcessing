@@ -5,8 +5,8 @@
     <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
 
     <!-- AdMob ad unit IDs -->
-    <string name="banner_home_footer">a-pp-ub-5245308302708916/3646505982</string>
-    <string name="interstitial_full_screen">c-a-p-5245308302708916/9553438784</string>
+    <string name="banner_home_footer">ca-app-pub-5245308302708916/3646505982</string>
+    <string name="interstitial_full_screen">ca-app-pub-5245308302708916/9553438784</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
